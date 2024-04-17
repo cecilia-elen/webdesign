@@ -1,0 +1,96 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(110, 185, 160);
+  width: 100%;
+   height: 100%;
+   display: grid;
+grid-template-areas: 'header'
+                     'main'
+                    'footer';
+
+grid-template-rows: 100px 467px 40px;
+}
+
+header{
+
+    background-color: rgb(141, 255, 217);
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    body> header> .paginas{
+        display: flex;
+        align-items: center;
+    }
+main{
+   background-color: rgb(200, 200, 228);
+    grid-area: main;
+    display:flex;
+    justify-self: center;
+
+}
+
+body> main> .formulario{
+   width: 650px;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.397);
+     display: flex;
+     align-self: center;
+     justify-self: center;
+     display:grid;
+    
+}
+
+.tituloform{
+    width: 650px;
+    background-color: rgb(90, 170, 207);
+    text-align: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.perguntas{
+    width: 618px;
+    height:350px;
+ background-color: rgba(141, 238, 238, 0.808);
+display: flex;
+flex-wrap:wrap;
+padding: 1rem;
+justify-content: space-around;
+align-content: center;
+justify-items: center;
+
+}
+
+.perguntasdireito{
+    display: flex;
+    flex-direction: column;
+}
+
+.perguntasesquerdo{
+    display: flex;
+    flex-direction: column;
+}
+   
+.botaosubmit{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+  
+}
+footer{
+    grid-area: footer;
+    display:flex;
+    background-color: rgb(155, 125, 184);
+}
+
+body> header> img{
+    height: 100px;
+    width: 200px;
+}

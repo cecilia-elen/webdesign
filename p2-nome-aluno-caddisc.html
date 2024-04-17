@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de disciplinas</title>
+    <link rel="stylesheet" href="caddisc.css">
+</head>
+<body>
+    <header>
+
+        <img src="if.png" alt="logo do site" srcset="">
+       <div class="paginas">
+       <a href="p2-nome-aluno-lisdisc.html">Lista de disciplinas</a>
+       </div>
+        <img src="if.png" alt="logo do site" srcset="">
+    </header>
+    <main>
+        <div class="formulario"> 
+
+          <form action="p2-nome-aluno-caddisc.html">
+
+            <div class="tituloform">
+
+                    <h1>Cadastro da disciplina</h1>
+        
+            </div>
+             <div class="perguntas">
+                <div class="perguntasesquerdo">
+                <label for="nome-disciplina"> Nome da disciplina</label>
+                <input id="nome-disciplina" type="text" name="Nome da disciplina" placeholder="Insira o nome da disciplina" maxlength="40" required><br><br>
+
+                <label for="id-disciplina"> ID da disciplina</label>
+                <input id="id-disciplina" type="text" name="ID da disciplina" placeholder="Insira o código de 8 dígitos da disciplina" minlength="8" maxlength="8" required><br><br>
+
+                <label for="ch-disciplina"> Carga Horária</label>
+                <input id="ch-disciplina" type="number" name="Carga Horária" placeholder="Insira a carga horária"  required><br><br>
+
+                <label for="professor-disciplina">Discente</label>
+                <input id="professor-disciplina" type="text" name="Professor" placeholder="Insira o discente" maxlength="60"  required> </div>
+<div class="perguntasdireito">
+                <label for="semestre-disciplina"> Quantidade de semestres</label>
+                <input id="semestre-disciplina" type="number" name="Semestres" placeholder="Insira a quantidade de semestres"  required><br><br>
+
+                <label for="nota-min-aprovacao"> Média de aprovação</label>
+                <input id="nota-min-aprovacao" type="number" name="Média" placeholder="Insira a média para aprovação" value="50" size="4" required><br><br>
+
+                <label for="data-cadastro"> Data de cadastro</label>
+                <input id="data-cadastro" type="date" name="Data de cadastro" placeholder="Insira a data do cadastro"  required><br><br>
+
+                <label for="ano-letivo"> Ano letivo</label>
+                <input id="ano-letivo" type="number" name="Ano letivo" placeholder="Insira o ano letivo" size="10" required>
+                 </div>
+                
+
+             </div>
+             <div class="botaosubmit">
+                    <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+        
+    </main>
+    <footer></footer>
+</body>
+</html>
